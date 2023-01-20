@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Button } from 'components/Contact/Contact.styled';
+import PropTypes from 'prop-types';
+
 export class Form extends Component {
   state = {
     name: '',
@@ -60,3 +62,7 @@ export class Form extends Component {
     );
   }
 }
+
+Form.propTypes = {
+    onSubmit: PropTypes.func.isRequired,
+  }

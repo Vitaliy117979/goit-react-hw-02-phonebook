@@ -3,7 +3,7 @@ import toast, { Toaster } from 'react-hot-toast';
 import { nanoid } from 'nanoid'
 import { Form } from 'components/Form/Form';
 import { ContactList } from './ContactList/ContactList';
-import { MainWrapper } from './MainWrapper.styled';
+import { MainWrapper } from './MainWrapper.styled';  
 import { Filter } from './Filter/Filter';
 export class App extends Component {
   state = {
